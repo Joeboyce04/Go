@@ -5,6 +5,6 @@ import (
 ) 
 
 func main() {
-	var someVariable = "Some Value"
-	fmt.Println(someVariable)
+	var firstname = "Joseph"
+	fmt.Println("Hello",firstname)
 }
