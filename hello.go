@@ -4,25 +4,52 @@ import (
 	"fmt"
 ) 
 
-
+func add(value int) int{
+	return value+5
+}
 func main(){
 
-	count:=10
-	name:=1
-	for name <=count {
-		fmt.Println("Joseph")
-
-		name++
-
-	}
+	number:=4
 
 
-	total:=1
-	for sum:= 1; sum <= 10; sum++ {
-		total*=sum
-	}
-    fmt.Println(total)
+  Result:= add(number)
+  fmt.Println("Result",Result)
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//	count:=10
+//	name:=1
+//	for name <=count {
+//		fmt.Println("Joseph")
+
+//		name++
+
+//	}
+
+
+//	total:=1
+//	for sum:= 1; sum <= 10; sum++ {
+//		total*=sum
+//	}
+    //fmt.Println(total)
+//}
 
 	
 	
